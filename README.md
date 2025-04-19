@@ -89,7 +89,7 @@ Click on the link to open Maps.
 
 ## Demo
 
-▶️ [Watch Demo Video]((https://youtu.be/7TRYzmLjbuI))
+▶️ [![Watch Demo Video](https://img.youtube.com/vi/7TRYzmLjbuI/0.jpg)](https://www.youtube.com/watch?v=7TRYzmLjbuI)
 
 ---
 
