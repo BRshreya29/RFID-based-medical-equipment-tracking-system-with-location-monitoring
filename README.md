@@ -6,7 +6,7 @@ The system has two separate circuits:
 - **RFID Reader Circuit**: RFID scanning using ESP8266 + RC522 module.  
    ![RFID Reader Circuit](https://github.com/BRshreya29/RFID-based-medical-equipment-tracking-system-with-location-monitoring/blob/main/Scanner_circuit_diagram.png)
 - **Device Attached to Equipment Circuit**: GPS location capture using ESP32 + NEO-6M GPS module.
-   ![Device Attached Circuit](https://github.com/BRshreya29/RFID-based-medical-equipment-tracking-system-with-location-monitoring/Device_attached_to_Equipment_circuit_diagram.png)
+   ![Device Attached Circuit](https://github.com/BRshreya29/RFID-based-medical-equipment-tracking-system-with-location-monitoring/blob/main/Device_attached_to_Equipment_circuit_diagram.png)
 
 The data from both circuits is sent to the same Google Sheet via Wi-Fi and displayed with a map link for live tracking.
 
