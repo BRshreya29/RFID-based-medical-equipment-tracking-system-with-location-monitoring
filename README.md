@@ -8,10 +8,10 @@ The system has two separate circuits:
 
 The data from both circuits is sent to the same Google Sheet via Wi-Fi and displayed with a map link for live tracking.
 
-### 📋 Google Sheet Link
+### Google Sheet Link
 [Google Sheet - RFID Location Tracking](https://docs.google.com/spreadsheets/d/1G8bnSog_9L24DeqO9bnbIN_9HJ3Avwo1S7GBQ2KLZVw/edit?usp=sharing)
 
-## 📊 Sample Output on Google Sheet
+## Sample Output on Google Sheet
 
 | Timestamp           | Tag ID        | Latitude  | Longitude | Map Link                 |
 |---------------------|---------------|-----------|-----------|--------------------------|
