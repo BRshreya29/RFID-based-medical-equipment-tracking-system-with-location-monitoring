@@ -4,7 +4,7 @@ This project is a smart tracking system designed to monitor the movement and usa
 
 The system has two separate circuits:
 - **RFID Reader Circuit**: RFID scanning using ESP8266 + RC522 module.  
-   ![RFID Reader Circuit](https://github.com/BRshreya29/RFID-based-medical-equipment-tracking-system-with-location-monitoring/Scanner_circuit_diagram)
+   ![RFID Reader Circuit](https://github.com/BRshreya29/RFID-based-medical-equipment-tracking-system-with-location-monitoring/Scanner_circuit_diagram.svg)
 - **Device Attached to Equipment Circuit**: GPS location capture using ESP32 + NEO-6M GPS module.
    ![Device Attached Circuit](https://github.com/BRshreya29/RFID-based-medical-equipment-tracking-system-with-location-monitoring/Device attached to Equipment circuit diagram)
 
