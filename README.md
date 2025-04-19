@@ -15,9 +15,10 @@ The data from both circuits is sent to the same Google Sheet via Wi-Fi and displ
 
 | Timestamp           | Tag ID        | Latitude  | Longitude | Map Link                 |
 |---------------------|---------------|-----------|-----------|--------------------------|
-| 2025-04-19 12:32:45 | OxygenTank-283|  25.5397  | 84.849556 | [Open]((https://www.google.com/maps?q=25.539700,84.849556)) |
+| 2025-04-19 12:32:45 | OxygenTank-283|  25.5397  | 84.849556 | [Open](https://www.google.com/maps?q=25.539700,84.849556) |
 
 ---
+Click on the link to open Maps.
 
 ## Features
 
