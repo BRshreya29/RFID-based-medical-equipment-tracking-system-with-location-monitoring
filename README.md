@@ -4,9 +4,9 @@ This project is a smart tracking system designed to monitor the movement and usa
 
 The system has two separate circuits:
 - **RFID Reader Circuit**: RFID scanning using ESP8266 + RC522 module.  
-   ![RFID Reader Circuit](https://github.com/BRshreya29/RFID-based-medical-equipment-tracking-system-with-location-monitoring/Scanner_circuit_diagram.svg)
+   ![RFID Reader Circuit](https://github.com/BRshreya29/RFID-based-medical-equipment-tracking-system-with-location-monitoring/blob/main/Scanner_circuit_diagram.png)
 - **Device Attached to Equipment Circuit**: GPS location capture using ESP32 + NEO-6M GPS module.
-   ![Device Attached Circuit](https://github.com/BRshreya29/RFID-based-medical-equipment-tracking-system-with-location-monitoring/Device attached to Equipment circuit diagram)
+   ![Device Attached Circuit](https://github.com/BRshreya29/RFID-based-medical-equipment-tracking-system-with-location-monitoring/Device_attached_to_Equipment_circuit_diagram.png)
 
 The data from both circuits is sent to the same Google Sheet via Wi-Fi and displayed with a map link for live tracking.
 
@@ -100,7 +100,7 @@ When an RFID tag is scanned:
 2. The ESP32 continuously reads GPS coordinates and sends them along with timestamp and map link.
 3. The data is recorded in real-time to the shared Google Sheet.
 
-![System Flow Diagram]((https://github.com/BRshreya29/RFID-based-medical-equipment-tracking-system-with-location-monitoring/system flow diagram.jpg)) 
+![System Flow Diagram]((https://github.com/BRshreya29/RFID-based-medical-equipment-tracking-system-with-location-monitoring/system_flow_diagram.jpg)) 
 
 ---
 
