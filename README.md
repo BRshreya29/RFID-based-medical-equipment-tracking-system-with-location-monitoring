@@ -10,6 +10,14 @@ The system has two separate circuits:
 
 The data from both circuits is sent to the same Google Sheet via Wi-Fi and displayed with a map link for live tracking.
 
+### Code Files
+
+- **Device.ino**: This code is to be uploaded onto the ESP32. It is responsible for reading the GPS data from the NEO-6M GPS module and sending it along with the RFID tag data to a Google Sheet. This device is attached to the medical equipment for tracking purposes.
+
+- **RFID.ino**: This code is to be uploaded onto the ESP8266. It reads the RFID tags scanned by the RFID-RC522 module and sends the RFID tag ID along with the GPS data (from the ESP32) to the Google Sheet.
+
+- **Write_to_rfid_tag.ino**: This code is also to be uploaded onto the ESP8266. It is used for writing data to RFID tags. This code is helpful when you want to program or write specific information to RFID tags.
+
 ### Google Sheet Link
 [Google Sheet - RFID Location Tracking](https://docs.google.com/spreadsheets/d/1G8bnSog_9L24DeqO9bnbIN_9HJ3Avwo1S7GBQ2KLZVw/edit?usp=sharing)
 
