@@ -100,7 +100,7 @@ When an RFID tag is scanned:
 2. The ESP32 continuously reads GPS coordinates and sends them along with timestamp and map link.
 3. The data is recorded in real-time to the shared Google Sheet.
 
-![System Flow Diagram]((https://github.com/BRshreya29/RFID-based-medical-equipment-tracking-system-with-location-monitoring/system_flow_diagram.jpg)) 
+![System Flow Diagram](https://github.com/BRshreya29/RFID-based-medical-equipment-tracking-system-with-location-monitoring/blob/main/system_flow_diagram.jpg) 
 
 ---
 
