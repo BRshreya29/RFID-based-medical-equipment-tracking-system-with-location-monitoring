@@ -3,8 +3,10 @@
 This project is a smart tracking system designed to monitor the movement and usage of critical medical equipment in real time. It combines RFID and GPS technologies with Wi-Fi-based data transmission to Google Sheets for centralized and live monitoring. 
 
 The system has two separate circuits:
-- **Circuit 1**: RFID scanning using ESP8266 + RC522 module.
-- **Circuit 2**: GPS location capture using ESP32 + NEO-6M GPS module.
+- **RFID Reader Circuit**: RFID scanning using ESP8266 + RC522 module.  
+   ![RFID Reader Circuit](https://github.com/BRshreya29/RFID-based-medical-equipment-tracking-system-with-location-monitoring/Scanner_circuit_diagram)
+- **Device Attached to Equipment Circuit**: GPS location capture using ESP32 + NEO-6M GPS module.
+   ![Device Attached Circuit](https://github.com/BRshreya29/RFID-based-medical-equipment-tracking-system-with-location-monitoring/Device attached to Equipment circuit diagram)
 
 The data from both circuits is sent to the same Google Sheet via Wi-Fi and displayed with a map link for live tracking.
 
@@ -43,7 +45,7 @@ Click on the link to open Maps.
 
 ---
 
-## 📡 Circuit Description
+## Circuit Description
 
 ### Circuit 1: RFID Scanner with ESP8266
 - **RFID-RC522 Connections**
@@ -69,7 +71,7 @@ Click on the link to open Maps.
 
 ---
 
-## 🧠 Software Stack
+## Software Stack
 
 - **Arduino IDE** for programming ESP32 and ESP8266
 - **IFTTT Webhooks** to send data to Google Sheets
@@ -85,13 +87,13 @@ Click on the link to open Maps.
 ---
 
 
-## 🎥 Demo
+## Demo
 
 ▶️ [Watch Demo Video]((https://youtu.be/7TRYzmLjbuI))
 
 ---
 
-## 🚀 Working Demo
+## Working Demo Description
 
 When an RFID tag is scanned:
 1. The ESP8266 reads the tag ID and sends it to Google Sheets.
